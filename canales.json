@@ -1,7 +1,7 @@
 {
   "canales": [
-    { "nombre": "TVN Chile 1080p", "url": "https://iptv.bitred.cl/tvn/index.m3u8", "formato": "hls",
-      "alternativas": ["http://138.121.15.230:9002/TVN/index.m3u8", "http://45.173.231.22:8000/play/a06l/index.m3u8"] },
+    { "nombre": "TVN Chile 1080p", "url": "http://45.173.231.22:8000/play/a06l/index.m3u8", "formato": "hls",
+      "alternativas": ["https://iptv.bitred.cl/tvn/index.m3u8", "http://138.121.15.230:9002/TVN/index.m3u8"] },
     { "nombre": "America TV Peru 1080p", "url": "http://190.93.224.42/AMERICA-TV/index.m3u8", "formato": "hls",
       "alternativas": ["http://187.102.210.46/AMERICA/index.m3u8"] },
     { "nombre": "El Trece Argentina 1080p", "url": "http://190.108.83.69:8000/play/a01d/index.m3u8", "formato": "hls" },
