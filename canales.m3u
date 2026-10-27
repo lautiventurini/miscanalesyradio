@@ -1,13 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="TVNChile1080p" group-title="TV",TVN Chile 1080p
-https://iptv.bitred.cl/tvn/index.m3u8
-#EXTINF:-1 tvg-id="AmericaTVPeru1080p" group-title="TV",America TV Peru 1080p
+#EXTINF:-1 tvg-id="tvnchile1080p" group-title="TV",TVN Chile 1080p
+http://45.173.231.22:8000/play/a06l/index.m3u8
+#EXTINF:-1 tvg-id="americatvperu1080p" group-title="TV",America TV Peru 1080p
 http://190.93.224.42/AMERICA-TV/index.m3u8
-#EXTINF:-1 tvg-id="ElTreceArgentina1080p" group-title="TV",El Trece Argentina 1080p
+#EXTINF:-1 tvg-id="eltreceargentina1080p" group-title="TV",El Trece Argentina 1080p
 http://190.108.83.69:8000/play/a01d/index.m3u8
-#EXTINF:-1 tvg-id="TelefeArgentina1080p" group-title="TV",Telefe Argentina 1080p
+#EXTINF:-1 tvg-id="telefeargentina1080p" group-title="TV",Telefe Argentina 1080p
 http://45.173.231.22:8000/play/a053/index.m3u8
-#EXTINF:-1 tvg-id="DiscoveryTurbo1080p" group-title="TV",Discovery Turbo 1080p
+#EXTINF:-1 tvg-id="discoveryturbo1080p" group-title="TV",Discovery Turbo 1080p
 http://38.134.250.110:8000/play/a01y/index.m3u8
-#EXTINF:-1 tvg-id="RadioManaArgentina" group-title="Radio",Radio Mana Argentina
+#EXTINF:-1 tvg-id="radiomanaargentina" group-title="Radio",Radio Mana Argentina
 https://server.radiostreaming.com.ar/8760/stream
