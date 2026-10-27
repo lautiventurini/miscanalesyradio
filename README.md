@@ -2,10 +2,14 @@
 
 Lista de canales de TV y radio usada por el canal de Roku **Mis Canales**.
 
-## URLs publicadas
+## URLs publicadas (GitHub Pages)
 
-- JSON: `https://raw.githubusercontent.com/lautiventurini/miscanalesyradio/main/canales.json`
-- M3U:  `https://raw.githubusercontent.com/lautiventurini/miscanalesyradio/main/canales.m3u`
+- JSON: `https://lautiventurini.github.io/miscanalesyradio/canales.json`
+- M3U:  `https://lautiventurini.github.io/miscanalesyradio/canales.m3u`
+
+Alternativa directa al archivo (sin CDN de Pages):
+
+- `https://raw.githubusercontent.com/lautiventurini/miscanalesyradio/main/canales.json`
 
 ## Archivos
 
@@ -20,7 +24,7 @@ Lista de canales de TV y radio usada por el canal de Roku **Mis Canales**.
 1. Editá `canales.json` (agregá, quitá o cambiá un canal).
 2. Regenerá `canales.m3u` desde el mismo JSON.
 3. Commit y push.
-4. El canal de Roku toma los cambios al abrirse. GitHub cachea unos minutos: si no ves el cambio, esperá 5 y reabrí la app.
+4. El canal de Roku toma los cambios al abrirse (Pages tarda ~1 minuto en publicar).
 
 ## Formato del JSON
 
