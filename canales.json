@@ -1,13 +1,57 @@
 {
   "canales": [
-    { "nombre": "TVN Chile 1080p", "url": "http://45.173.231.22:8000/play/a06l/index.m3u8", "formato": "hls", "voz": "tvn.mp3",
-      "alternativas": ["https://iptv.bitred.cl/tvn/index.m3u8", "http://138.121.15.230:9002/TVN/index.m3u8"] },
-    { "nombre": "America TV Peru 1080p", "url": "http://190.93.224.42/AMERICA-TV/index.m3u8", "formato": "hls", "voz": "america.mp3",
-      "alternativas": ["http://187.102.210.46/AMERICA/index.m3u8"] },
-    { "nombre": "El Trece Argentina 1080p", "url": "http://190.108.83.69:8000/play/a01d/index.m3u8", "formato": "hls", "voz": "eltrece.mp3" },
-    { "nombre": "Telefe Argentina 1080p", "url": "http://45.173.231.22:8000/play/a053/index.m3u8", "formato": "hls", "voz": "telefe.mp3",
-      "alternativas": ["http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8"] },
-    { "nombre": "Discovery Turbo 1080p", "url": "http://38.134.250.110:8000/play/a01y/index.m3u8", "formato": "hls", "voz": "disco.mp3" },
-    { "nombre": "Radio Mana Argentina", "url": "https://server.radiostreaming.com.ar/8760/stream", "formato": "mp3", "voz": "radio.mp3" }
+    {
+      "nombre": "TVN Chile 1080p",
+      "url": "http://45.173.231.22:8000/play/a06l/index.m3u8",
+      "formato": "hls",
+      "voz": "tvn.mp3",
+      "alternativas": [
+        "https://iptv.bitred.cl/tvn/index.m3u8",
+        "http://138.121.15.230:9002/TVN/index.m3u8"
+      ]
+    },
+    {
+      "nombre": "America TV Peru 1080p",
+      "url": "http://190.93.224.42/AMERICA-TV/index.m3u8",
+      "formato": "hls",
+      "voz": "america.mp3",
+      "alternativas": [
+        "http://187.102.210.46/AMERICA/index.m3u8"
+      ]
+    },
+    {
+      "nombre": "El Trece Argentina 1080p",
+      "url": "http://190.108.83.69:8000/play/a01d/index.m3u8",
+      "formato": "hls",
+      "voz": "eltrece.mp3"
+    },
+    {
+      "nombre": "Telefe Argentina 1080p",
+      "url": "http://45.173.231.22:8000/play/a053/index.m3u8",
+      "formato": "hls",
+      "voz": "telefe.mp3",
+      "alternativas": [
+        "http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8"
+      ]
+    },
+    {
+      "nombre": "Discovery Turbo 1080p",
+      "url": "http://38.134.250.110:8000/play/a01y/index.m3u8",
+      "formato": "hls",
+      "voz": "disco.mp3"
+    },
+    {
+      "nombre": "Garage TV",
+      "url": "https://stream1.sersat.com/hls/garagetv.m3u8",
+      "formato": "hls",
+      "voz": "garagetv.mp3",
+      "pronunciacion": "el Garage TV"
+    },
+    {
+      "nombre": "Radio Mana Argentina",
+      "url": "https://server.radiostreaming.com.ar/8760/stream",
+      "formato": "mp3",
+      "voz": "radio.mp3"
+    }
   ]
 }
