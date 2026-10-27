@@ -2,19 +2,18 @@
 
 Lista de canales de TV y radio usada por el canal de Roku **Mis Canales**.
 
+## URLs publicadas
+
+- JSON: `https://raw.githubusercontent.com/lautiventurini/miscanalesyradio/main/canales.json`
+- M3U:  `https://raw.githubusercontent.com/lautiventurini/miscanalesyradio/main/canales.m3u`
+
 ## Archivos
 
 | Archivo | Para qué |
 |---|---|
 | `canales.json` | Lo lee el canal de Roku de forma remota, así se actualiza sin reinstalar la app |
 | `canales.m3u` | Lista para VLC, TiviMate o cualquier reproductor IPTV |
-
-## URLs (una vez publicado con GitHub Pages)
-
-- JSON: `https://TUUSUARIO.github.io/miscanales/canales.json`
-- M3U:  `https://TUUSUARIO.github.io/miscanales/canales.m3u`
-
-Reemplazá `TUUSUARIO` por tu nombre de usuario y `miscanales` por el nombre del repo.
+| `cpanel/canal_luz.php` | Proxy para canalLUZ (agrega la cabecera `Referer` que el CDN exige) |
 
 ## Cómo actualizar la lista
 
@@ -37,7 +36,6 @@ Reemplazá `TUUSUARIO` por tu nombre de usuario y `miscanales` por el nombre del
 
 ## Advertencias
 
-- El repo tiene que ser **público** para que el Roku lo lea sin credenciales.
-- Eso significa que las URLs de los canales quedan públicas. Son streams abiertos, pero tenelo presente.
+- El repo es **público** para que el Roku lo lea sin credenciales. Las URLs de los canales quedan visibles; son streams abiertos.
 - **No subas acá la URL del proxy local** ni tokens: expondrías tu IP interna o credenciales.
-- canalLUZ no está en el M3U: necesita un proxy que agregue la cabecera `Referer`, y eso no se puede hacer con GitHub.
+- canalLUZ no está en el M3U ni en el JSON: necesita el proxy de `cpanel/`, porque su CDN exige un `Referer` que Roku y TiviMate no pueden mandar.
