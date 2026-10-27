@@ -7,7 +7,6 @@
     { "nombre": "Telefe Argentina 1080p", "url": "http://45.173.231.22:8000/play/a053/index.m3u8", "formato": "hls" },
     { "nombre": "Telefe Buenos Aires alternativa", "url": "http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8", "formato": "hls" },
     { "nombre": "Discovery Turbo 1080p", "url": "http://38.134.250.110:8000/play/a01y/index.m3u8", "formato": "hls" },
-    { "nombre": "Radio Mana Argentina", "url": "https://server.radiostreaming.com.ar/8760/stream", "formato": "mp3" },
-    { "nombre": "Canal Luz Rosario puede fallar", "url": "http://g2.vxral-slo.transport.edge-access.net/a11/ngrp:canal_luz01-100009_all/Playlist.m3u8?sense=true", "formato": "hls" }
+    { "nombre": "Radio Mana Argentina", "url": "https://server.radiostreaming.com.ar/8760/stream", "formato": "mp3" }
   ]
 }
